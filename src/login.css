@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(113, 181, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.main {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+.container {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+}
+
+.primary2 {
+    background-color: rgb(150, 84, 84);
+}
+
+#btn {
+    background-color: rgb(23, 20, 221);
+    color: blanchedalmond;
+    border-radius: 8px;
+    padding: 3px 12px;
+}
+
+.Btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+#btn:hover {
+    background-color: rgb(211, 204, 241);
+    color: black;
+    font-size: 1.1rem;
+}
